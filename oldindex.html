@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Your description goes here" />
+    <meta name="keywords" content="one, two, three" />
+
+    <title>Keith Ard's Portfolio</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/newstyle.css" />
+    <!-- google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <section id="profile">
+      <section id="intro">
+        <h3>Привет, я <span class="pop">Влад</span>.</h3>
+        <h3>
+          I do <span class="pop">Web Development</span>,
+          <span class="pop">Design</span>, and
+          <span class="pop">Branding</span>.
+        </h3>
+        <h3>Take a look at some of my work!</h3>
+      </section>
+      <section id="img">
+        <img src="images/ProfilePic.jpeg" />
+        <button id="contactBtn">contact me!</button>
+      </section>
+    </section>
+    <section id="gallery">
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </section>
+    <section id="contact">
+      <section>
+        <h3><span class="pop">Need a website</span>?</h3>
+        <h3><span class="pop">Hiring a developer</span>?</h3>
+        <h3>Contact me here:</h3>
+      </section>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send it!</button>
+        </p>
+      </form>
+    </section>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
